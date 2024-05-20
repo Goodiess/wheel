@@ -10,12 +10,12 @@ mongoose.connect('mongodb://localhost:27017/RUN')
 const PORT = process.env.PORT || 4000;
 
 const mockUsers = [
-  { id: 1, uusername: 'Anson', displayName: "Anson"},
-  { id: 2, uusername: 'Raph', displayName: "Raph"},
-  { id: 3, uusername: 'Goody', displayName: "Goody"},
-  { id: 4, uusername: 'Anson', displayName: "Caleb"},
-  { id: 5, uusername: 'Raph', displayName: "Emma"},
-  { id: 6, uusername: 'Goody', displayName: "Daniel"},
+  { id: 1, username: 'Mercedes', displayName: "Mercedes"},
+  { id: 2, username: 'Highlander', displayName: "Highlander"},
+  { id: 3, username: 'Golf', displayName: "Golf"},
+  { id: 4, username: 'Roll Rolyce', displayName: "Roll Rolyce"},
+  { id: 5, username: 'Pegeuot', displayName: "Pegeuot"},
+  { id: 6, username: 'Teyota', displayName: "Teyota"},
 ]
 
 app.get("/", (request, response) =>{response.send("Hello World! Am a senior Dev")
